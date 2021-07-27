@@ -1,0 +1,99 @@
+/*枠デザイン*/
+.profile_box {
+  font-family: "Amatic SC", cursive;
+  padding: 0.2em 0.5em;
+  margin: 2em 0;
+  color: #565656;
+  background: #ffeaea;
+  box-shadow: 0px 0px 0px 10px #ffeaea;
+  border: dashed 3px #ffc3c3;
+  border-radius: 8px;
+}
+.profile_box .box-title {
+  font-size: 48px;
+  line-height: 1.8;
+  background: #f2c2c2; /*タイトルの背景色*/
+  padding: 4px;
+  text-align: center;
+  color: #fff; /*文字色*/
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 8px;
+}
+/*内容*/
+.profile_center {
+  text-align: center;
+  margin: 10px 15px 0 0;
+}
+/*プロフィール画像*/
+.profile_figure {
+  width: 150px;
+  height: 180px;
+  border-radius: 50%; /*丸くする*/
+  border: solid 3px #ffc3c3; /*枠線*/
+}
+/*名前*/
+.profile_name {
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 36px;
+}
+/*自己紹介文*/
+.profile_box p {
+  color: navy;
+  font-size: 36px;
+  padding: 15px 20px;
+  margin: 0;
+}
+/*リスト*/
+.profile_box ul {
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+  font-size: 24px;
+}
+.profile_box ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none !important;
+}
+.profile_box ul li:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 1em; /*左端からのアイコンまでの距離*/
+  color: #ffc3c3; /*アイコン色*/
+}
+
+.game-figure {
+  width: 100px;
+  height: 100px;
+  /*border-radius: 50%; /*丸くする*/
+  border: solid 3px #ffc3c3; /*枠線*/
+}
+
+.shorinji-figure {
+  display: block;
+  margin: auto;
+
+  width: 480px;
+  height: 250px;
+  border: solid 3px #ffc3c3; /*枠線*/
+}
+
+.profile_box p.quiz-sentence {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.buttons {
+  text-align: center;
+}
+.quiz-choice {
+  background-color: lightgreen;
+  font-size: 28px;
+  margin: 10px 20px;
+}
+.quiz-feedback {
+  text-align: center;
+}
